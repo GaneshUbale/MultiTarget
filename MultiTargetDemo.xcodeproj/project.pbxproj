@@ -12,6 +12,11 @@
 		EB76DC371EFD1ACB0052512E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB76DC351EFD1ACB0052512E /* Main.storyboard */; };
 		EB76DC391EFD1ACB0052512E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB76DC381EFD1ACB0052512E /* Assets.xcassets */; };
 		EB76DC3C1EFD1ACB0052512E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB76DC3A1EFD1ACB0052512E /* LaunchScreen.storyboard */; };
+		EB76DC451EFD25840052512E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB76DC331EFD1ACB0052512E /* ViewController.swift */; };
+		EB76DC461EFD25840052512E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB76DC311EFD1ACB0052512E /* AppDelegate.swift */; };
+		EB76DC491EFD25840052512E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB76DC3A1EFD1ACB0052512E /* LaunchScreen.storyboard */; };
+		EB76DC4A1EFD25840052512E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB76DC381EFD1ACB0052512E /* Assets.xcassets */; };
+		EB76DC4B1EFD25840052512E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB76DC351EFD1ACB0052512E /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,10 +27,19 @@
 		EB76DC381EFD1ACB0052512E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB76DC3B1EFD1ACB0052512E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EB76DC3D1EFD1ACB0052512E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB76DC4F1EFD25840052512E /* MultiTargetDemo Dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MultiTargetDemo Dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB76DC501EFD25840052512E /* MultiTargetDemo Dev-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "MultiTargetDemo Dev-Info.plist"; path = "/Users/cjsales/Desktop/MultiTargetDemo/MultiTargetDemo Dev-Info.plist"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		EB76DC2B1EFD1ACB0052512E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB76DC471EFD25840052512E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -47,6 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				EB76DC2E1EFD1ACB0052512E /* MultiTargetDemo.app */,
+				EB76DC4F1EFD25840052512E /* MultiTargetDemo Dev.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,6 +75,7 @@
 				EB76DC381EFD1ACB0052512E /* Assets.xcassets */,
 				EB76DC3A1EFD1ACB0052512E /* LaunchScreen.storyboard */,
 				EB76DC3D1EFD1ACB0052512E /* Info.plist */,
+				EB76DC501EFD25840052512E /* MultiTargetDemo Dev-Info.plist */,
 			);
 			path = MultiTargetDemo;
 			sourceTree = "<group>";
@@ -82,6 +98,23 @@
 			name = MultiTargetDemo;
 			productName = MultiTargetDemo;
 			productReference = EB76DC2E1EFD1ACB0052512E /* MultiTargetDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EB76DC431EFD25840052512E /* MultiTargetDemo Dev */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB76DC4C1EFD25840052512E /* Build configuration list for PBXNativeTarget "MultiTargetDemo Dev" */;
+			buildPhases = (
+				EB76DC441EFD25840052512E /* Sources */,
+				EB76DC471EFD25840052512E /* Frameworks */,
+				EB76DC481EFD25840052512E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MultiTargetDemo Dev";
+			productName = MultiTargetDemo;
+			productReference = EB76DC4F1EFD25840052512E /* MultiTargetDemo Dev.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -114,6 +147,7 @@
 			projectRoot = "";
 			targets = (
 				EB76DC2D1EFD1ACB0052512E /* MultiTargetDemo */,
+				EB76DC431EFD25840052512E /* MultiTargetDemo Dev */,
 			);
 		};
 /* End PBXProject section */
@@ -129,6 +163,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EB76DC481EFD25840052512E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB76DC491EFD25840052512E /* LaunchScreen.storyboard in Resources */,
+				EB76DC4A1EFD25840052512E /* Assets.xcassets in Resources */,
+				EB76DC4B1EFD25840052512E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -138,6 +182,15 @@
 			files = (
 				EB76DC341EFD1ACB0052512E /* ViewController.swift in Sources */,
 				EB76DC321EFD1ACB0052512E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB76DC441EFD25840052512E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB76DC451EFD25840052512E /* ViewController.swift in Sources */,
+				EB76DC461EFD25840052512E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,7 +257,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -248,7 +301,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -261,6 +314,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MultiTargetDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.elivotech.MultiTargetDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -273,8 +327,37 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MultiTargetDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.elivotech.MultiTargetDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		EB76DC4D1EFD25840052512E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Dev";
+				INFOPLIST_FILE = "MultiTargetDemo Dev-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "-D Development";
+				PRODUCT_BUNDLE_IDENTIFIER = com.elivotech.MultiTargetDemoDev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EB76DC4E1EFD25840052512E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Dev";
+				INFOPLIST_FILE = "MultiTargetDemo Dev-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "-D Development";
+				PRODUCT_BUNDLE_IDENTIFIER = com.elivotech.MultiTargetDemoDev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -299,6 +382,15 @@
 				EB76DC421EFD1ACB0052512E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+		};
+		EB76DC4C1EFD25840052512E /* Build configuration list for PBXNativeTarget "MultiTargetDemo Dev" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB76DC4D1EFD25840052512E /* Debug */,
+				EB76DC4E1EFD25840052512E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

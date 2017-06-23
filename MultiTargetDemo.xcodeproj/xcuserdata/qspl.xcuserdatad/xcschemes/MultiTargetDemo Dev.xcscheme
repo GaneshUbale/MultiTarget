@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
    LastUpgradeVersion = "0830"
-   version = "1.3">
+   version = "1.7">
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "EB76DC2D1EFD1ACB0052512E"
-               BuildableName = "MultiTargetDemo.app"
-               BlueprintName = "MultiTargetDemo"
+               BlueprintIdentifier = "EB76DC431EFD25840052512E"
+               BuildableName = "MultiTargetDemo Dev.app"
+               BlueprintName = "MultiTargetDemo Dev"
                ReferencedContainer = "container:MultiTargetDemo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -32,9 +32,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "EB76DC2D1EFD1ACB0052512E"
-            BuildableName = "MultiTargetDemo.app"
-            BlueprintName = "MultiTargetDemo"
+            BlueprintIdentifier = "EB76DC431EFD25840052512E"
+            BuildableName = "MultiTargetDemo Dev.app"
+            BlueprintName = "MultiTargetDemo Dev"
             ReferencedContainer = "container:MultiTargetDemo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -55,14 +55,18 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "EB76DC2D1EFD1ACB0052512E"
-            BuildableName = "MultiTargetDemo.app"
-            BlueprintName = "MultiTargetDemo"
+            BlueprintIdentifier = "EB76DC431EFD25840052512E"
+            BuildableName = "MultiTargetDemo Dev.app"
+            BlueprintName = "MultiTargetDemo Dev"
             ReferencedContainer = "container:MultiTargetDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
+      <LocationScenarioReference
+         identifier = "com.apple.dt.IDEFoundation.CurrentLocationScenarioIdentifier"
+         referenceType = "1">
+      </LocationScenarioReference>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -74,9 +78,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "EB76DC2D1EFD1ACB0052512E"
-            BuildableName = "MultiTargetDemo.app"
-            BlueprintName = "MultiTargetDemo"
+            BlueprintIdentifier = "EB76DC431EFD25840052512E"
+            BuildableName = "MultiTargetDemo Dev.app"
+            BlueprintName = "MultiTargetDemo Dev"
             ReferencedContainer = "container:MultiTargetDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
